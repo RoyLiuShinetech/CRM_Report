@@ -7,6 +7,8 @@ Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Demo", "Demo\Demo.rptproj",
 EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "CRMReport_2013-05-16", "CRMReport_2013-05-16\CRMReport_2013-05-16.rptproj", "{16E0C763-6079-43D9-B503-33236A3676E3}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Working09-16", "Working09-16\Working09-16.rptproj", "{8CD7A454-BA10-4198-ADA9-BAFBC9CF4014}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,15 @@ Global
 		{16E0C763-6079-43D9-B503-33236A3676E3}.Release|Any CPU.ActiveCfg = Release
 		{16E0C763-6079-43D9-B503-33236A3676E3}.Release|Any CPU.Build.0 = Release
 		{16E0C763-6079-43D9-B503-33236A3676E3}.Release|Any CPU.Deploy.0 = Release
+		{8CD7A454-BA10-4198-ADA9-BAFBC9CF4014}.Debug|Any CPU.ActiveCfg = DebugLocal
+		{8CD7A454-BA10-4198-ADA9-BAFBC9CF4014}.Debug|Any CPU.Build.0 = DebugLocal
+		{8CD7A454-BA10-4198-ADA9-BAFBC9CF4014}.DebugLocal|Any CPU.ActiveCfg = DebugLocal
+		{8CD7A454-BA10-4198-ADA9-BAFBC9CF4014}.DebugLocal|Any CPU.Build.0 = DebugLocal
+		{8CD7A454-BA10-4198-ADA9-BAFBC9CF4014}.Development|Any CPU.ActiveCfg = DebugLocal
+		{8CD7A454-BA10-4198-ADA9-BAFBC9CF4014}.Development|Any CPU.Build.0 = DebugLocal
+		{8CD7A454-BA10-4198-ADA9-BAFBC9CF4014}.Release|Any CPU.ActiveCfg = Release
+		{8CD7A454-BA10-4198-ADA9-BAFBC9CF4014}.Release|Any CPU.Build.0 = Release
+		{8CD7A454-BA10-4198-ADA9-BAFBC9CF4014}.Release|Any CPU.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
