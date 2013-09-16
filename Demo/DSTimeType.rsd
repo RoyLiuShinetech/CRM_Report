@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>SELECT TOP 10 ccttimetypeid,ctt.TimesPerWeek,ctt.ShowInSummary,ctt.SortOrder  FROM CctTimeType ctt</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="ccttimetypeid">
+        <DataField>ccttimetypeid</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="TimesPerWeek">
+        <DataField>TimesPerWeek</DataField>
+        <rd:TypeName>System.Byte</rd:TypeName>
+      </Field>
+      <Field Name="ShowInSummary">
+        <DataField>ShowInSummary</DataField>
+        <rd:TypeName>System.Byte</rd:TypeName>
+      </Field>
+      <Field Name="SortOrder">
+        <DataField>SortOrder</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
